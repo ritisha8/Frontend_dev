@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.navbar{
+     height: 65px;
+     background-color: #232f3e ;
+     display: flex;
+     
+     justify-content: space-around;
+     align-items: center;
+     border: 2px solid transparent;
+
+}
+
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+
+.nav-logo{
+    height: 55px;
+    width: 90px;
+}
+
+.logo{
+    height: 45px;
+    width: 100px;
+    
+    background-image: url(logoamazon.png);
+    background-size: cover;
+}
+.nav-add{
+    color:white;
+}
+.address i,p{
+    display: inline;
+    
+
+}
+.nav-search{
+    width: 620px;
+    height: 40px;
+    background-color: rgb(150, 238, 238);
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+
+}
+
+.nav-select{
+    color: black;
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    text-align: center;
+}
+.nav-input{
+    width: 100%;
+    border:none;
+    font-size: 1rem;
+}
+#search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.nav_signin{
+    color:white;
+}
+.nav-return{
+    color:white;
+}
+#cart{
+    color:white;
+    font-size: 30px;
+    
+}
+.nav-cart{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav-cart p{
+    position: relative;
+    top: 8px;
+}
+.icon{
+    width: 50px;
+    height: 38px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.icon p{
+    margin-left: 8px;
+}
+.nav-panel{
+    height: 40px;
+    background-color: #2f4257;
+    color:white;
+    display:flex;
+    
+}
+.panel-ops{
+    width: 500px;
+    height:40px;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.panel-ops p{
+    font-size: 14px;
+
+
+}
+/**hero section  **/
+.hero-section{
+    background-image: url(heroimg.jpg);
+    background-size: cover;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-det{
+    height: 40px;
+    width: 90%;
+    background-color: #f5f6f6;
+    color: #0f1111;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hero-det a{
+    text-decoration: none;
+}
+.hero-det p{
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.box{
+   height: 420px;
+   width: 300px;
+ /**  border: 2px solid black; **/
+   background-color: white;
+   padding: 20px 0px 15px;
+   margin-top: 15px;
+
+}
+.content-area{
+    background-color: #fcdbc0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.content-area a{
+    text-decoration: none;
+}
+
+.box-img{
+  height: 350px;
+  background-size: cover;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+ 
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.foot-panel1{
+    height: 50px;
+    background-color: #3d5066;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.foot-panel2{
+    height: 350px;
+    background-color: #2f4257;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+ul{
+    color: #dddddd;
+    padding: 10px;
+   
+}
+.head-foot{
+    font-size: 16px;
+}
+.foot-panel2 a{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.foot-panel3{
+    height: 70px;
+    background-color: #232f3e;
+    border-top: 0.2px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.foot-logo{
+    height: 45px;
+    width: 100px;
+    background-image: url(logoamazon.png);
+    background-size: cover;
+}
+.foot-panel4{
+    background-color: #232f3e;
+    color: white;
+    height: 70px;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
